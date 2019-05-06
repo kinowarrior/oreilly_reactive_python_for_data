@@ -9,4 +9,4 @@ def read_lines(file_name):
         .filter(lambda l: l != "")
 
 
-read_lines("bbc_news_article.txt").subscribe(lambda s: print(s))
+read_lines("resources/bbc_news_article.txt").subscribe(lambda s: print(s))
